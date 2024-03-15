@@ -34,7 +34,7 @@ public class AllTest extends BasePage{
 		String url="https://teststore.automationtesting.co.uk/index.php";
 		driver.get(url);
 		HomePage home=new HomePage(driver);
-		ExtentManager.log("Starting Homepage");
+		ExtentManager.log("Starting Homepage newly");
 		home.getA().click();
 		ExtentManager.pass("Product selected");
 		
